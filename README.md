@@ -14,7 +14,9 @@ This is a CLI wrapper for the Kafka Connector API. While its assumed you are usi
 If using the Confluent container (cp-kafka-connect), the API endpoint will be automatically discovered.
 
 Otherwise, the following environment variables can be set:
-...
+```
+export CONTAINER=<your-kafka-connect-container-id>
+```
 
 
 ## Usage
